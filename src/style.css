@@ -1,0 +1,62 @@
+h1, p {
+  font-family: Lato;
+}
+@media print {
+  button, input { display: none; }
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+
+tr {
+  margin: 0;
+}
+
+td {
+  border: 0.2em solid black;
+  margin: 0;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.up {
+  border-top: 0;
+}
+
+.down {
+  border-bottom: 0;
+}
+
+.right {
+  border-right: 0;
+}
+
+.left {
+  border-left: 0;
+}
+
+.start {
+  background-color: #dfd !important;
+}
+
+.start::before {
+  content: "→";
+}
+
+.end {
+  background-color: #fdd !important;
+}
+
+.end::before {
+  content: "→";
+}
+
+.happy {
+  background-color: gray;
+}
+
+.diversion {
+  background-color: yellow;
+}
