@@ -1,8 +1,15 @@
 h1, p {
   font-family: Lato;
 }
+
 @media print {
-  button, input { display: none; }
+  a, button, input { display: none; }
+}
+
+button {
+  margin-bottom: 1em;
+  border: 0.2em solid black;
+  background-color: white;
 }
 
 table {
