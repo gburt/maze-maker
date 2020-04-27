@@ -1,0 +1,2 @@
+# maze-maker
+Make mazes!
