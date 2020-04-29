@@ -54,6 +54,10 @@ const Cell = ({box, num}: {box: Box; num: number}) => {
 };
 
 const Draw = (props: DrawProps) => {
+  if (props.width <= 0 || props.height <= 0) {
+    return <div> Please enter valid values for height and width! </div>;
+  }
+
   const [maze, setMaze] = React.useState(NewMaze(props.width, props.height));
 
   if (props.width !== maze.Width || props.height !== maze.Height) {
